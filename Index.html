@@ -1,13 +1,4 @@
-﻿<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="Content/logo.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome! </title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/site.css" rel="stylesheet">    
-</head>
-<body>   
+
 <div class="container">
     <div class="row">      
         <div class="col-md-12 mt-2 animated fadeInRight">
@@ -144,57 +135,7 @@
         </div>
     </div>
 </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/d3.v3.min.js"></script>
-    <script src="js/trianglify.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            var pattern = Trianglify({
-                width: window.innerWidth,
-                height: window.innerHeight
-            });
-            var pattern2 = Trianglify({
-                width: window.innerWidth,
-                height: window.innerHeight
-            });
-            document.body.appendChild(pattern.canvas());
-            $("canvas").addClass("fondo1");
-            document.body.appendChild(pattern2.canvas());
-            $("canvas").addClass("fondo2");
-            $(".fondo1").removeClass("fondo2");            
-            $("canvas").css("width", "100%");
-            $("canvas").css("height", "100%");
-            $("canvas").css("position", "fixed");
-            $("canvas").css("top", "0");
-            $("canvas").css("left", "0");
-            $("canvas").css("z-index", "-1");        
-            var indice = false;
-            setInterval(function myfunction() {
-                pattern = Trianglify({
-                    width: window.innerWidth,
-                    height: window.innerHeight
-                });
-                if (indice)
-                {
-                    $(".fondo1").css("z-index", "-2");
-                    $(".fondo2").css("display", "none");
-                    $(".fondo2").css("z-index", "-1");
-                    $(".fondo2").fadeIn(4000);
-                }
-                else
-                {
-                    $(".fondo1").css("z-index", "-1");
-                    $(".fondo1").css("display", "none");
-                    $(".fondo2").css("z-index", "-2");
-                    $(".fondo1").fadeIn(4000);
-                }                
-                indice = !indice;
-            },8000);
-        });
-    </script>
+
 <canvas width="1920" height="979" class="fondo1" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: -2;"></canvas>
 <canvas width="1920" height="979" class="fondo2" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.994559;"></canvas>
-</body>
-</html>
+
