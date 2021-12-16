@@ -1,85 +1,100 @@
-﻿<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="Content/logo.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome! </title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="css/site.css" rel="stylesheet">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="img\logo.ico" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Jorge Neaves</title>
+    <link href="estilos.css" rel="stylesheet" />
 </head>
-<body>   
-<div class="container">
-    <div class="row">      
-        <div class="col-md-12 mt-2 animated fadeInRight">
-            <div class="row">
-		<h4>Almacen Materia Prima</h4>
-                <div class="col-lg-12">
-			<div class="file-box animado">        
-				<div class="file" style="max-width:100px;">
-					<a href="#">              
-						<div class="image">                  
-							<img style="height:100%;width:100%;" alt="image" class="img-responsive" src="img/2d.svg" )"="">                
-						</div>               
-						<div class="file-name">
-							Recibo 2D                
-						</div>            
-					</a>        
-				</div>    
-			</div>		
-            </div>	    
+<body>
+    <svg id="lblPresentacion" viewBox="0 0 150 150" width="100%" height="100%" style="background-color: lightgrey;position:fixed;top:0;left:0;">
+        <text font-size="0.5em" x="50" y="40" text-anchor="middle">
+            <tspan font-family="monospace" font-weight="400" x="75" dy="0">DESARROLLADOR DE SOFTWARE</tspan>
+            <tspan font-family="monospace" style="font-weight:900" x="75" dy="10">JORGE NEAVES</tspan>
+        </text>
+    </svg>
+    <div class="container bg-white">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a style="min-width:250px;" href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img class="bi me-2" width="40" height="32" src="img\logo.svg" />
+                <span id="txtTitulo" style="font-weight:600"></span><span class="blink">|</span>
+            </a>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="Index.html" class="nav-link px-2 link-dark">Inicio</a></li>
+                <li><a href="Proyectos.html" class="nav-link px-2 link-dark">Proyectos</a></li>
+                <li><a href="Media.html" class="nav-link px-2 link-dark">Media</a></li>
+            </ul>
+        </header>
+        <div class="px-4 py-5 my-5 text-center border-bottom">
+            <img class="d-in mx-auto mb-4" src="img\vs.png" alt="" width="50" height="50">
+            <img class="d-in mx-auto mb-4" src="img\mn.png" alt="" width="50" height="50">
+            <img class="d-in mx-auto mb-4" src="img\cs.png" alt="" width="50" height="50">
+            <img class="d-in mx-auto mb-4" src="img\vb.png" alt="" width="50" height="50">
+            <h1 class="display-5 fw-bold">Aplicaciones de Escritorio</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Experiencia desarrollando multiples proyectos para aplicaciones de escritorio Windows, utilizando lenguages de programacion como C# y VB.NET.</p>
+            </div>
         </div>
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <img class="d-in mx-auto mb-4" src="img\asp.png" alt="" width="70" height="70">
+            <img class="d-in mx-auto mb-4" src="img\mvc.png" alt="" width="60" height="50">
+            <img class="d-in mx-auto mb-4" src="img\html5.png" alt="" width="50" height="50">
+            <img class="d-in mx-auto mb-4" src="img\css3.png" alt="" width="35" height="50">
+            <img class="d-in mx-auto mb-4" src="img\js.jpg" alt="" width="55" height="55">
+            <h1 class="display-4 fw-bold">Paginas y Aplicaciones Web</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Desarrollo de paginas y aplicaciones web utilizando tecnologias como ASP.NET, MVC.NET, HTML, Javascript, CSS.</p>
+            </div>
+        </div>
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <img class="d-in mx-auto mb-4" src="img\MS_SQL.svg" alt="" width="70" height="70">
+            <img class="d-in mx-auto mb-4" src="img\MY_SQL.png" alt="" width="80" height="50">
+            <img class="d-in mx-auto mb-4" src="img\SQL_LITE.png" alt="" width="100" height="70">
+            <h1 class="display-4 fw-bold">Gestores de Bases de Datos</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Administracion de bases de datos MS SQL, My SQL y SQL Lite, diseño de bases de datos relacionales, vistas y procedimientos almacenados.</p>
+            </div>
+        </div>
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <img class="d-in mx-auto mb-4" src="img\barcode.png" alt="" width="100" height="100">
+            <img class="d-in mx-auto mb-4" src="img\qr.jpg" alt="" width="100" height="100">
+            <img class="d-in mx-auto mb-4" src="img\rfid.png" alt="" width="100" height="100">
+            <img class="d-in mx-auto mb-4" src="img\intermec.jpg" alt="" width="250" height="250">
+            <img class="d-in mx-auto mb-4" src="img\zebra.jpg" alt="" width="250" height="250">
+            <img class="d-in mx-auto mb-4" src="img\HandHeld.jpg" alt="" width="200" height="250">
+            <h1 class="display-4 fw-bold">Codigos de barras,2D y RFID</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Experiencia trabajando con diferentes tipos de codigos lineales y bidimensionales.He trabajando con tecnologia RFID y con equipos Honeywell y ZEBRA</p>
+            </div>
+        </div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="Index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img class="bi me-2" width="40" height="32" src="img\logo.svg" />
+                </a>
+                <span class="text-muted">© 2021 Jorge Neaves</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img class="bi me-2" width="40" height="32" src="img\fb.svg" /></a></li>
+            </ul>
+        </footer>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/d3.v3.min.js"></script>
     <script src="js/trianglify.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            var pattern = Trianglify({
-                width: window.innerWidth,
-                height: window.innerHeight
-            });
-            var pattern2 = Trianglify({
-                width: window.innerWidth,
-                height: window.innerHeight
-            });
-            document.body.appendChild(pattern.canvas());
-            $("canvas").addClass("fondo1");
-            document.body.appendChild(pattern2.canvas());
-            $("canvas").addClass("fondo2");
-            $(".fondo1").removeClass("fondo2");            
-            $("canvas").css("width", "100%");
-            $("canvas").css("height", "100%");
-            $("canvas").css("position", "fixed");
-            $("canvas").css("top", "0");
-            $("canvas").css("left", "0");
-            $("canvas").css("z-index", "-1");        
-            var indice = false;
-            setInterval(function myfunction() {
-                pattern = Trianglify({
-                    width: window.innerWidth,
-                    height: window.innerHeight
-                });
-                if (indice)
-                {
-                    $(".fondo1").css("z-index", "-2");
-                    $(".fondo2").css("display", "none");
-                    $(".fondo2").css("z-index", "-1");
-                    $(".fondo2").fadeIn(4000);
-                }
-                else
-                {
-                    $(".fondo1").css("z-index", "-1");
-                    $(".fondo1").css("display", "none");
-                    $(".fondo2").css("z-index", "-2");
-                    $(".fondo1").fadeIn(4000);
-                }                
-                indice = !indice;
-            },8000);
-        });
-    </script>
-<canvas width="1920" height="979" class="fondo1" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: -2;"></canvas>
-<canvas width="1920" height="979" class="fondo2" style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: -1; opacity: 0.994559;"></canvas>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    -->
+    <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
