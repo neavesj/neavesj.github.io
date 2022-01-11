@@ -71,4 +71,9 @@
                     if (lblIndice >= txt.length) { lblIndice = 0;}
                     typeWriter();
                 }
-            }
+}
+$(".visor").click(function (event) {
+    var myModal = new bootstrap.Modal(document.getElementById('myModal'), {});
+    $("#imgVisor").attr("src",$("#"+event.target.id).attr("src"));
+    myModal.show();
+});

@@ -18,3 +18,7 @@ body {
         visibility: hidden;
     }
 }
+.visor {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
